@@ -4,8 +4,8 @@ using System.IO;
 using System.Linq;
 using CluedIn.Core.Crawling;
 using CluedIn.Crawling.FileSystem.Core;
+using CluedIn.Crawling.FileSystem.Core.Models;
 using CluedIn.Crawling.FileSystem.Infrastructure.Factories;
-using CluedIn.Crawling.FileSystem.Models;
 
 namespace CluedIn.Crawling.FileSystem
 {

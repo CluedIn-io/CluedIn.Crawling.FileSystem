@@ -10,7 +10,7 @@
 using System;
 using System.DirectoryServices.AccountManagement;
 
-namespace CluedIn.Crawling.FileSystem.Models
+namespace CluedIn.Crawling.FileSystem.Core.Models
 {
     public class CachedUserPrincipal
     {

@@ -2,7 +2,6 @@ using System;
 using CluedIn.Core.Logging;
 using CluedIn.Core.Providers;
 using CluedIn.Crawling.FileSystem.Core;
-using CluedIn.Crawling.FileSystem.Models;
 using System.Collections.Generic;
 using System.IO;
 using Microsoft.VisualBasic.Devices;

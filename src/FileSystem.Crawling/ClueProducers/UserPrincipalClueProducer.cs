@@ -8,7 +8,6 @@ using CluedIn.Crawling.Helpers;
 
 using CluedIn.Crawling.FileSystem.Vocabularies;
 using CluedIn.Crawling.FileSystem.Core.Models;
-using CluedIn.Crawling.FileSystem.Models;
 using RuleConstants = CluedIn.Core.Constants.Validation.Rules;
 
 namespace CluedIn.Crawling.FileSystem.ClueProducers

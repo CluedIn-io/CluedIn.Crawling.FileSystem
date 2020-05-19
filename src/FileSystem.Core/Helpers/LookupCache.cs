@@ -3,7 +3,7 @@ using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Security.Principal;
 
-namespace CluedIn.Crawling.FileSystem.Helpers
+namespace CluedIn.Crawling.FileSystem.Core.Helpers
 {
     public enum FileSystemObjectTypes
     {

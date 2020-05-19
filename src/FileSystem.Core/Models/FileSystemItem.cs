@@ -10,11 +10,7 @@
 using System.Collections.Generic;
 using System.IO;
 
-using CluedIn.Core;
-using CluedIn.Core.Agent.Jobs;
-using CluedIn.Crawling.FileSystem.Core;
-
-namespace CluedIn.Crawling.FileSystem.Models
+namespace CluedIn.Crawling.FileSystem.Core.Models
 {
     public class FileSystemItem<T>
         where T : FileSystemInfo

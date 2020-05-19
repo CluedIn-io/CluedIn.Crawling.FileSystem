@@ -12,6 +12,7 @@ using System.IO;
 using CluedIn.Core;
 using CluedIn.Core.Agent.Jobs;
 using CluedIn.Core.Data;
+using CluedIn.Crawling.FileSystem.Core;
 
 namespace CluedIn.Crawling.FileSystem.Indexing
 {

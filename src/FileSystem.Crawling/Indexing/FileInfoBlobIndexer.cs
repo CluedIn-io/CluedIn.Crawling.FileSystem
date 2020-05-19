@@ -16,6 +16,7 @@ using CluedIn.Core.Configuration;
 using CluedIn.Core.Data;
 
 using System.Configuration;
+using CluedIn.Crawling.FileSystem.Core;
 
 namespace CluedIn.Crawling.FileSystem.Indexing
 {

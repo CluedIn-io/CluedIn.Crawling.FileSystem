@@ -9,10 +9,9 @@
 
 using System.DirectoryServices.AccountManagement;
 using System.Security.Principal;
+using CluedIn.Crawling.FileSystem.Core.Models;
 
-using CluedIn.Crawling.FileSystem.Models;
-
-namespace CluedIn.Crawling.FileSystem
+namespace CluedIn.Crawling.FileSystem.Core
 {
     /// <summary>
     /// The security identifier extensions.

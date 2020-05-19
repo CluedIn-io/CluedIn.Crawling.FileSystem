@@ -10,14 +10,12 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-
 using CluedIn.Core;
 using CluedIn.Core.Crawling;
-using CluedIn.Crawling.FileSystem.Helpers;
-
+using CluedIn.Crawling.FileSystem.Core.Helpers;
 using Newtonsoft.Json.Linq;
 
-namespace CluedIn.Crawling.FileSystem
+namespace CluedIn.Crawling.FileSystem.Core
 {
     /// <summary>The file system crawl job data.</summary>
     public class FileSystemCrawlJobData : CrawlJobData

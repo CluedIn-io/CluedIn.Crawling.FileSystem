@@ -11,11 +11,10 @@ using System;
 using System.IO;
 using System.Security.AccessControl;
 using System.Security.Principal;
-
 using CluedIn.Core;
-using CluedIn.Crawling.FileSystem.Helpers;
+using CluedIn.Crawling.FileSystem.Core.Helpers;
 
-namespace CluedIn.Crawling.FileSystem.Models
+namespace CluedIn.Crawling.FileSystem.Core.Models
 {
     public class FileSystemPrincipal : IIdentifiable
     {

@@ -6,12 +6,12 @@ using CluedIn.Core;
 using CluedIn.Core.Crawling;
 using CluedIn.Core.Data;
 using CluedIn.Crawling.Factories;
+using CluedIn.Crawling.FileSystem.Core;
 using CluedIn.Crawling.Helpers;
 
 using CluedIn.Crawling.FileSystem.Vocabularies;
 using CluedIn.Crawling.FileSystem.Core.Models;
 using CluedIn.Crawling.FileSystem.Indexing;
-using CluedIn.Crawling.FileSystem.Models;
 using CluedIn.Crawling.FileSystem.UriBuilders;
 using RuleConstants = CluedIn.Core.Constants.Validation.Rules;
 
