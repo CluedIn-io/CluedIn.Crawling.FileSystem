@@ -21,7 +21,7 @@ namespace CluedIn.Crawling.FileSystem.Models
     {
         public static void Test()
         {
-            var principal = FileSystemPrincipal.GetOwner(new DirectoryInfo(@"\\san01\files\CluedIn"), LookupCache.Create());
+            var principal = GetOwner(new DirectoryInfo(@"\\san01\files\CluedIn"), LookupCache.Create());
         }
 
         public FileSystemPrincipal(SecurityIdentifier sid, IdentityReference account, CachedUserPrincipal principal)

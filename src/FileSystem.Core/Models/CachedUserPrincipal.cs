@@ -89,7 +89,7 @@ namespace CluedIn.Crawling.FileSystem.Models
             {
                 var value = func(p);
 
-                this.initialized = true;
+                initialized = true;
                 return value;
             }
             catch (Exception)

@@ -48,17 +48,17 @@ namespace CluedIn.Crawling.FileSystem.Helpers
 
             object name;
 
-            if (this.cache.TryGetValue(key, out name))
+            if (cache.TryGetValue(key, out name))
                 return (T)name;
 
             Func<SecurityIdentifier, object> callback;
 
-            if (this.callbacks.TryGetValue(type, out callback))
+            if (callbacks.TryGetValue(type, out callback))
             {
                 try
                 {
                     name = callback(id);
-                    this.AddToCache(key, name);
+                    AddToCache(key, name);
                 }
                 catch (Exception)
                 {
@@ -74,17 +74,17 @@ namespace CluedIn.Crawling.FileSystem.Helpers
         public void AddToCache(Enum type, SecurityIdentifier id, object name)
         {
             var key = new Tuple<Enum, string>(type, id.Value);
-            this.AddToCache(key, name);
+            AddToCache(key, name);
         }
 
         private void AddToCache(Tuple<Enum, string> key, object name)
         {
-            this.cache[key] = name;
+            cache[key] = name;
         }
 
         public void AddCacheMissCallback(Enum type, Func<SecurityIdentifier, object> callback)
         {
-            this.callbacks[type] = callback;
+            callbacks[type] = callback;
         }
     }
 }

@@ -2,10 +2,9 @@ using System;
 using CluedIn.Core.Logging;
 using CluedIn.Core.Providers;
 using CluedIn.Crawling.FileSystem.Core;
-using CluedIn.Crawling.FileSystem.Core.Models;
+using CluedIn.Crawling.FileSystem.Models;
 using System.Collections.Generic;
 using System.IO;
-using CluedIn.Crawling.FileSystem.Models;
 using Microsoft.VisualBasic.Devices;
 using RestSharp;
 
@@ -32,15 +31,9 @@ namespace CluedIn.Crawling.FileSystem.Infrastructure
       client.BaseUrl = new Uri(s_baseUri);
 //      client.AddDefaultParameter("api_key", filesystemCrawlJobData.ApiKey, ParameterType.QueryString);
     }
-
     public IEnumerable<ComputerInfo> GetComputerInfo()
     {
       return new[] { new ComputerInfo() };
-    }
-
-    public IEnumerable<FileSystemItem<DirectoryInfo>> GetDirectoryInfo()
-    {
-      return new [] {};
     }
 
     public AccountInformation GetAccountInformation()

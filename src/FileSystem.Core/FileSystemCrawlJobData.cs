@@ -90,10 +90,10 @@ namespace CluedIn.Crawling.FileSystem
                                          ? long.Parse(configuration["fileSizeLimit"].ToString()) as long?
                                          : Constants.MaxFileIndexingFileSize;
 
-                LastCrawlFinishTime = this.ReadLastCrawlFinishTime(configuration);
+                LastCrawlFinishTime = ReadLastCrawlFinishTime(configuration);
 
-                FetchOwners = this.GetValue(configuration, "fetchOwners", this.FetchOwners);
-                TempRunOnSharedProcessors = this.GetValue(configuration, "runOnSharedProcessors", false);
+                FetchOwners = GetValue(configuration, "fetchOwners", this.FetchOwners);
+                TempRunOnSharedProcessors = GetValue(configuration, "runOnSharedProcessors", false);
             }
             catch (Exception)
             {
