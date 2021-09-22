@@ -60,7 +60,7 @@
     <Compile Include="Indexing\FileInfoBlobIndexer.cs" />
     <Compile Include="Indexing\IFileInfoBlobIndexer.cs" />
     <Compile Include="Installers\InstallComponents.cs" />
-    <Compile Include="UriBuilders\FyleSystemUriBuilder.cs" />
+    <Compile Include="UriBuilders\FileSystemUriBuilder.cs" />
     <Compile Include="UriBuilders\IFileSystemUriBuilder.cs" />
     <Compile Include="Vocabularies\ComputerInfoVocabulary.cs" />
     <Compile Include="Vocabularies\DirectoryInfoVocabulary.cs" />
